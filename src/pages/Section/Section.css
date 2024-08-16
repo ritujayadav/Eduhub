@@ -1,0 +1,128 @@
+.main-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: var(--primary-body);
+}
+
+.main-sec-head {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-top: 3rem;
+  padding: 2rem;
+  color: var(--section-title);
+}
+.main_img {
+  width: 50%;
+  height: 30vh;
+}
+.main_section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.choose_sec {
+  width: 97%;
+  height: 140vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 3rem;
+  background: url("../../assets/section-img.png")
+    no-repeat center;
+}
+.section_under {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+
+  margin: 1.5rem auto 3rem auto;
+  height: 40vh;
+}
+.sec-middle {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  margin: 3rem auto 5rem auto;
+  height: 40vh;
+}
+#chatbot ::-webkit-scrollbar{
+  width:10px;
+  
+}
+#chatbot ::-webkit-scrollbar-thumb{
+  background: #FF6A42;
+}
+
+.home_hover{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.hovertext{
+  font-size:14px!important;
+}
+
+.home_btns a{
+  margin:1rem;
+}
+
+
+@media (max-width: 1300px) {
+  .section_under {
+    height: 40vh;
+  }
+  .sec-middle {
+    height: 40vh;
+  }
+}
+@media (max-width: 1050px) {
+  .section_under {
+    height: 45vh;
+  }
+  .sec-middle {
+    height: 45vh;
+  }
+}
+
+@media (max-width: 900px) {
+  .section_under {
+    width: 90%;
+    margin: 0rem;
+  }
+}
+@media (max-width: 800px) {
+  .choose_sec {
+    background: url("../../assets/section-img.png") no-repeat center;
+    height: 150vh;
+    background-size: 100%;
+  }
+}
+@media (max-width: 690px) {
+  .section_under {
+    background-size: 80%;
+    flex-direction: column;
+    height: 90vh;
+
+  }
+  .sec-middle {
+    background-size: 80%;
+    align-items: center;
+    flex-direction: column;
+    height: 150vh;
+  }
+  .choose_sec {
+    background: url("../../assets/section-img.png") no-repeat center;
+    height: 300vh;
+    color: black;
+  }
+  #chatbot ::-webkit-scrollbar{
+    width:8px;
+    
+  }
+}

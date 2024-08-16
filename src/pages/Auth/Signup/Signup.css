@@ -1,0 +1,64 @@
+.signup--options__container {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-body);
+}
+
+.signup__options--student,.signup__options--teacher {
+  margin: 100px 0;
+}
+
+.signup__options--student a,.signup__options--teacher a{
+  font-size: 32px;
+  padding: 10px;
+  border: 3px solid rgb(209, 57, 57);
+  letter-spacing: 2px;
+  background: rgb(209, 57, 57);
+  text-decoration: none;
+  color: #fff;
+  transition: 0.7s all;
+}
+
+.signup__options--student a:hover,.signup__options--teacher a:hover{
+  background: none;
+  color: var(--primary-footer-text);
+}
+
+.signup--options__container .inside_container3 {
+  width: 40%;
+  margin: 3rem 10rem;
+  height: 52rem;
+}
+
+.signup--options__container .btn3 {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px;
+  text-align: center;
+}
+
+@media (max-width: 1080px) {
+  .signup--options__container .inside_container3 {
+    width: 75%;
+    margin: 3rem 5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .signup--options__container .inside_container3 {
+    width: 100%;
+    margin: 3rem 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .signup--options__container .inside_cont3-box {
+    flex-direction: column;
+  }
+  .signup--options__container .inside_container3 {
+    width: 80%;
+    height: 60rem;
+  }
+}

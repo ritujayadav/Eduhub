@@ -1,0 +1,135 @@
+.sections {
+  border-radius: 25px;
+  background: #03265a;
+  box-shadow: 6px 6px 12px var(--primary-section-box),
+    -6px -6px 12px var(--primary-form);
+  border-radius: 5px;
+  border: none;
+  width: 70%;
+  min-height: 25vh;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  border-radius: 7px;
+}
+.sections span {
+  font-size: 2rem;
+  padding: auto;
+  text-align: center;
+  font-weight: 600;
+  word-wrap: break-word;
+  margin-bottom: 1rem;
+}
+.sections p {
+  margin: auto;
+  font-size: medium;
+  text-align: center;
+  border-radius: 5px;
+  word-wrap: break-word;
+  margin-bottom: 1rem;
+}
+.section-img {
+  width: 10%;
+  margin: 1rem;
+}
+.section-div {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 50rem;
+}
+.sec-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  width: 100%;
+}
+
+.hover-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 0;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #ffffff;
+  color: #0d1585;
+  border: 10px solid #0c0e85;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 1s;
+  animation: hidehover 0.5s ease-in-out;
+}
+
+.sections:hover {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.sections:hover .hover-div {
+  animation: showhover 0.5s ease-in-out;
+  opacity: 1;
+  height: 10rem;
+}
+
+@keyframes hidehover {
+  from {
+    height: 10rem;
+  }
+  to {
+    height: 0;
+  }
+}
+
+@keyframes showhover {
+  from {
+    height: 0;
+  }
+  to {
+    height: 10rem;
+  }
+}
+
+/* Media Queries */
+@media (max-width: 1300px) {
+  .section-div {
+    flex-direction: column;
+    margin: 2rem;
+  }
+}
+@media (max-width: 1050px) {
+  .section-div {
+    width: 35rem;
+    height: 25vh;
+  }
+  .sections {
+    height: 25vh;
+  }
+  .sections p {
+    height: 50%;
+  }
+  .section-img {
+    width: 20%;
+  }
+}
+@media (max-width: 1024px) {
+  .section-div {
+    height: 40vh;
+  }
+}
+@media (max-width: 690px) {
+  .section-div {
+    width: 43rem;
+    height: 40vh;
+  }
+  .section {
+    height: 50vh;
+  }
+  .section-img {
+    width: 20%;
+  }
+}

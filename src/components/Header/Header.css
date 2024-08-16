@@ -1,0 +1,241 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.75rem 1rem;
+  position: relative;
+  top: 0;
+  border: 2px solid var(--primary-main);
+  background-color: var(--primary-main);
+  overflow: hidden;
+  height: 6em;
+}
+.header__h1 {
+  padding: 1rem 0.5rem;
+  color: #f8f8f8;
+  letter-spacing: 0.25rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 2rem;
+  font-family: "cursive";
+}
+
+.header__h1--label {
+  color: var(--header-color);
+  font-size: 2rem;
+  cursor: pointer;
+  text-shadow: 2px 1px 3px grey;
+  font-weight: 900;
+}
+.header_name{
+  width:17%;
+}
+.header__logo {
+  width: 22%;
+  float: left;
+}
+.nav_links{
+width:40%;
+display:flex;
+flex-direction:row;
+justify-content: space-evenly;
+padding:auto;
+}
+.header_toggle--btn {
+  padding-right: 10px;
+  display: none;
+  cursor: pointer;
+}
+
+.header_toggle--btn div {
+  width: 30px;
+  height: 3px;
+  background-color: var(--header-color);
+  margin: 6px 0;
+}
+.header_toggle--btn:hover div{ 
+  background: white;
+}
+
+.header__btn--ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.header__btn--a a {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #f8f8f8;
+  /* border: 50%; */
+  padding: 1.25rem;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+.header__btn--login a {
+  /* border-radius: 20px; */
+  margin-right: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  color: whitesmoke;
+  border: 2px solid #0d0763;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+.header__btn--login a:hover {
+  /* border: 2px solid #f24638; */
+  background-color: #ffffff;
+  color: black;
+}
+
+.header__btn--get a {
+  /* border-radius: 20px; */
+  margin-right: 2rem;
+  /* color: white; */
+  color: var(--primary-footer-text);
+  padding-right:2rem;
+  padding-left: 2rem;
+  background-color: var(--header-button);
+  border: 2px solid #b8b8b8;
+}
+
+.header__btn--get a:hover {
+  background-color: var(--header-signup);
+  border: 2px solid #b8b8b8;
+  color: white;
+}
+.header__btn--container{
+ width:20%;
+ display:flex;
+flex-direction:row;
+justify-content: flex-end;
+
+}
+
+@media (max-width:1280px){
+  .header_name{
+    margin-left:-1rem;
+    width:23%;
+  }
+}
+@media (max-width:1040px){
+  .header__btn--container{
+    display: none;
+  }
+  
+}
+@media (max-width:865px){
+.header__h1{
+  font-size: 1.5rem;
+}
+.header__btn--get a,.header__btn--login a{
+  margin-right:1rem;
+}
+}
+@media (max-width: 750px) {
+  .header_toggle--btn {
+    display: inline-block;
+  }
+  .dark_mode_toogle{
+   margin-left:20rem;
+  }
+  
+  .header_name{
+    width:35%;
+  }
+  .header__h1{
+    font-size:2rem;
+  }
+  .header__btn--container {
+    display: none;
+  }
+  .nav_links{
+    display:none;
+  }
+}
+.header__switch {
+  position: relative;
+  display: inline-block;
+  width: 54px;
+  height: 28px;
+}
+
+.header__switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0c0a80;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  box-shadow: 0 0 2px #222222;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.toggle__checkbox:checked + .slider {
+  background-color: #222222;
+  box-shadow: 0 0 5px white;
+}
+
+.toggle__checkbox:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px) rotate(180deg);
+  clip-path: ellipse(67% 100% at 11% 50%);
+  background-color: gold;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+@media (max-width: 530px){
+   .header_name{
+     width:40%;
+   }
+}
+@media (max-width: 500px){
+  .header_name{
+    width:45%;
+  }
+  .dark_mode_toogle{
+    margin-left:10rem;
+    size:45;
+  }
+}
+@media (max-width: 400px){
+  .header_name{
+    width:55%;
+  }
+  .dark_mode_toogle{
+    margin-left:3rem;
+    size:45;
+  }
+}

@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+::-webkit-scrollbar{
+  width: 18px;
+}
+::-webkit-scrollbar-track {
+  background: #f1faee;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(hsl(214, 85%, 24%),#0623a3);
+  border-radius: 20px;
+  box-shadow: inset 2px 2px 2px hsl(0deg 0% 100% / 25%),
+              inset -2px -2px 2px rgb(0 0 0 / 25%);
+}
+[data-theme="light"] {
+  --primary-main: #0b799f;
+  --primary-body: #b7cceb;
+  --header-color: #141414;
+  --header-button: white;
+  --header-signup: #0b799f;
+  --primary-footer: white;
+  --section-title: #141414;
+  --primary-footer-text: #252525;
+  --primary-footer-para: rgb(71, 71, 71);
+  --primary-footer-form-border: transparent;
+  --primary-section-box: #e3e3e3;
+  --primary-ourteam-card: white;
+  --primary-home-head: #141639;
+  --primary-home-p: #73747b;
+  --primary-form: white;
+}
+
+[data-theme="dark"] {
+  --primary-main: #141414;
+  --primary-body: #222222;
+  --header-color: #082c79;
+  --header-button: transparent;
+  --header-signup: #08107a;
+  --primary-footer: #111111;
+  --section-title: white;
+  --primary-footer-text: #ffffff;
+  --primary-footer-para: #aaaaaa;
+  --primary-footer-form-border: #ddd;
+  --primary-section-box: #111;
+  --primary-ourteam-card: #111;
+  --primary-home-head: #fff;
+  --primary-home-p: #818391;
+  --primary-form: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 1600px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 57.5%;
+  }
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 45%;
+  }
+}

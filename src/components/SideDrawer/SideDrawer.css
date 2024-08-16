@@ -1,0 +1,55 @@
+.sidedrawer__container {
+  display: none;
+  max-width: 50vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  height: 100%;
+  width: 82.5%;
+  transition: all 0.4s;
+  background-color: #dc1c13;
+}
+
+.sidedrawer__container::-webkit-scrollbar{
+  width: 10px;
+}
+
+.sidedrawer__container::-webkit-scrollbar-track{
+  background-color: white;
+}
+
+
+
+.sidedrawer__container ul {
+  margin-top: 10rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidedrawer__container ul li {
+  width: 80%;
+  text-align: center;
+}
+
+.sidedrawer__container ul a {
+  display: block;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  border-bottom: 2px solid white;
+  border-radius: 10px;
+}
+
+.sidedrawer__container ul a:hover {
+  color: white;
+}
+
+@media (max-width: 750px) {
+  .sidedrawer__container {
+    display: inline-block;
+    overflow-y:scroll;
+  }
+}

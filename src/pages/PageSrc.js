@@ -1,0 +1,16 @@
+export { default as Home } from "./Home/Home";
+export { default as Login } from "./Auth/Login/Login";
+export { default as Signup } from "./Auth/Signup/Signup";
+export { default as SignupStudent } from "./Auth/SignupStudent/SignupStudent";
+export { default as SignupTeacher } from "./Auth/SignupTeacher/SignupTeacher";
+export { default as ForgotPassword } from "./Auth/ForgotPassword/ForgotPassword";
+export { default as ResetPassword } from "./Auth/ResetPassword/ResetPassword";
+export { default as About } from "./About/About";
+export { default as Section } from "./Section/Section";
+export { default as FAQ } from "./FAQ/FAQ";
+export { default as SingleQuiz } from "./Quiz/SingleQuiz/SingleQuiz";
+export { default as QuizList } from "./Quiz/QuizList/QuizList";
+export { default as Video } from "./Video/Video";
+export { default as SingleVideo } from "./SingleVideo/SingleVideo";
+export { default as BlogTopics } from "./Blogs/BlogTopics";
+export { default as TopicBlogs } from "./Blogs/BlogTopics.data";

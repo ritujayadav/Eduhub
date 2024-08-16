@@ -1,0 +1,17 @@
+.input__style {
+  padding: 0.75rem;
+  border: none;
+  border-bottom: 1px solid var(--primary-footer-para);
+  background-color: inherit;
+  margin-bottom: 2rem;
+  font-family: inherit;
+  outline: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--primary-footer-text);
+}
+
+.input__style:focus {
+  border: none;
+  border-bottom: 1px solid #2f078b;
+}
