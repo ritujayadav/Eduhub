@@ -53,8 +53,8 @@ Learners can engage with the platform in their preferred languages. Our platform
 The teacher module is designed for teaching students. Qualified part-time educators can actively contribute to the learning community through live sessions and sharing instructional videos.
 
 
-                 ![image](https://github.com/user-attachments/assets/2786e107-c658-40dc-8c9f-189a69ed7912)
-                 <p align="center">Figure 8. Live Videos from Teachers</p>
+![image](https://github.com/user-attachments/assets/2786e107-c658-40dc-8c9f-189a69ed7912)
+<p align="center">Figure 8. Live Videos from Teachers</p>
 
 ### 7. Student Learning Module: Diverse Educational Exploration
 Our student module provides a platform for learners to explore diverse subjects aligned with their interests, allowing navigation through a wide array of topics at their own pace.
