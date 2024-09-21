@@ -41,17 +41,28 @@ EDUHUB facilitates access to a diverse array of learning materials offline, espe
 ### 5. Multilingual Support
 Learners can engage with the platform in their preferred languages. Our platform recognizes the importance of diverse linguistic preferences, ensuring accessibility for a wide audience.
 
+![image](https://github.com/user-attachments/assets/6a09fd2e-1fd5-46cc-b0bb-55471b658ea9)
+<p align="center">Figure 6. Get Access to any language</p>
+
+
+![image](https://github.com/user-attachments/assets/ef0d0621-bbf1-447c-9cf3-89922e5bfc2c)
+)
+<p align="center">Figure 7. AI Assisted Chatbot in any language</p>
+
+
 ### 6. Teacher Module: Empowering Educators, Facilitating Learning
 The teacher module is designed for teaching students. Qualified part-time educators can actively contribute to the learning community through live sessions and sharing instructional videos.
+
+
+![image](https://github.com/user-attachments/assets/2786e107-c658-40dc-8c9f-189a69ed7912)
+<p align="center">Figure 8. Live Videos from Teachers</p>
 
 ### 7. Student Learning Module: Diverse Educational Exploration
 Our student module provides a platform for learners to explore diverse subjects aligned with their interests, allowing navigation through a wide array of topics at their own pace.
 
-![image](https://github.com/user-attachments/assets/2786e107-c658-40dc-8c9f-189a69ed7912)
-<p align="center">Figure 6. Live Videos from Teachers</p>
 
 ![image](https://github.com/user-attachments/assets/0ec4a1cb-491f-489c-9341-7ad2d6e2e89f)
-<p align="center">Figure 7. Student and Teacher Module</p>
+<p align="center">Figure 9. Student and Teacher Module</p>
 
 We believe that education is a lifelong journey, and our project encourages a love for learning that extends far beyond traditional classrooms, enabling individuals to continue their educational pursuits at their own pace and convenience.
 
