@@ -46,7 +46,6 @@ Learners can engage with the platform in their preferred languages. Our platform
 
 
 ![image](https://github.com/user-attachments/assets/ef0d0621-bbf1-447c-9cf3-89922e5bfc2c)
-)
 <p align="center">Figure 7. AI Assisted Chatbot in any language</p>
 
 
