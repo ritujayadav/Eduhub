@@ -22,7 +22,7 @@ Our platform introduces a YouTube Transcript Summarizer, a valuable tool for stu
 </div>
 
 ### 2. Inclusive Accessibility Features for All
-Our platform also provides support for disabled individuals:
+Our platform provides support for disabled individuals:
 - **Voice Assistant Support**: Offering a seamless experience for users with varying abilities.
 - **Braille Feature**: Incorporating access for individuals with visual impairments.
 
@@ -32,7 +32,7 @@ Our platform also provides support for disabled individuals:
 </div>
 
 ### 3. YouTube Video Conversion
-- Using the power of Artificial Intelligence (AI) and Machine Learning (ML), EDUHUB allows the conversion of YouTube videos into any language, enhancing accessibility and understanding.
+- Using AI and ML, EDUHUB allows the conversion of YouTube videos into any language, enhancing accessibility and understanding.
 - Users can paste the link of YouTube videos in other languages to get it translated to the specified language.
 
 <div align="center">
@@ -41,7 +41,7 @@ Our platform also provides support for disabled individuals:
 </div>
 
 ### 4. Offline Learning
-EDUHUB facilitates access to a diverse array of learning materials offline, especially beneficial for remote areas with limited connectivity. We provide a wide range of subjects related to all the subjects, including NEET and JEE for school students.
+EDUHUB facilitates access to diverse learning materials offline, especially beneficial for remote areas with limited connectivity. We provide a wide range of subjects, including NEET and JEE for school students.
 
 <div align="center">
     ![image](https://github.com/user-attachments/assets/a15e68fa-5c50-4f80-81c1-f9d8dfd1a6a3)
@@ -49,34 +49,24 @@ EDUHUB facilitates access to a diverse array of learning materials offline, espe
 </div>
 
 ### 5. Multilingual Support
-Learners can engage with the platform in their preferred languages. Our platform recognizes the importance of diverse linguistic preferences, ensuring accessibility for a wide audience.
-
-<div align="center">
-    ![image](https://github.com/user-attachments/assets/6a09fd2e-1fd5-46cc-b0bb-55471b658ea9)
-    <p>Figure 6. Get Access to Any Language</p>
-</div>
-
-<div align="center">
-    ![image](https://github.com/user-attachments/assets/ef0d0621-bbf1-447c-9cf3-89922e5bfc2c)
-    <p>Figure 7. AI Assisted Chatbot in Any Language</p>
-</div>
+Learners can engage with the platform in their preferred languages, ensuring accessibility for a wide audience.
 
 ### 6. Teacher Module: Empowering Educators, Facilitating Learning
-The teacher module is designed for teaching students. Qualified part-time educators can actively contribute to the learning community through live sessions and sharing instructional videos.
+The teacher module allows qualified part-time educators to contribute to the learning community through live sessions and sharing instructional videos.
+
+### 7. Student Learning Module: Diverse Educational Exploration
+Our student module provides a platform for learners to explore diverse subjects aligned with their interests at their own pace.
 
 <div align="center">
     ![image](https://github.com/user-attachments/assets/2786e107-c658-40dc-8c9f-189a69ed7912)
-    <p>Figure 8. Live Videos from Teachers</p>
+    <p>Figure 6. Live Videos from Teachers</p>
 </div>
-
-### 7. Student Learning Module: Diverse Educational Exploration
-Our student module provides a platform for learners to explore diverse subjects aligned with their interests, allowing navigation through a wide array of topics at their own pace.
 
 <div align="center">
     ![image](https://github.com/user-attachments/assets/0ec4a1cb-491f-489c-9341-7ad2d6e2e89f)
-    <p>Figure 9. Student and Teacher Module</p>
+    <p>Figure 7. Student and Teacher Module</p>
 </div>
 
-We believe that education is a lifelong journey, and our project encourages a love for learning that extends far beyond traditional classrooms, enabling individuals to continue their educational pursuits at their own pace and convenience.
+We believe that education is a lifelong journey, and our project encourages a love for learning that extends beyond traditional classrooms, enabling individuals to continue their educational pursuits at their own pace and convenience.
 
 Let’s make a difference and unlock the boundless potential within each learner.
